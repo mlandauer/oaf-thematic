@@ -57,3 +57,23 @@ from jumping into the air */
 #access {
     clear: both;
 }
+
+/* Very, very basic styling for cforms form */
+/* TODO: Should be moved to plugins.css */
+
+.cform li {
+	list-style-type: none;
+}
+
+.cform ol {
+	margin: 0;
+}
+
+.cform label {
+	display: block;
+}
+
+.cform fieldset.cf_hidden, .linklove {
+	display: none;
+}
+

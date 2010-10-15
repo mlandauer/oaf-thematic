@@ -31,4 +31,29 @@ Thematic is © Ian Stewart http://themeshaper.com/
 /* Prepare theme for plugins */
 @import url('../thematic/library/styles/plugins.css');
 
+#header_box {
+    clear: both;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 960px;
+}
 
+/* Moves blog name & description to the left */
+#branding {
+    float: left;
+    width: 620px;
+    margin: 0 0 0 10px;
+}
+
+/* Moves the new widgetized area to the right and levels it with #branding */
+#header-aside {
+    float: right;
+    width: 300px;
+    padding: 88px 0 44px;
+}
+/* This will clear the floats and keeps the access bottom line
+from jumping into the air */
+#access {
+    clear: both;
+}

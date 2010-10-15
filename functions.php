@@ -34,4 +34,40 @@
 //
 // define('THEMATIC_COMPATIBLE_FEEDLINKS', true);
 
+// This will create your widget area
+function my_widgets_init() {
+    register_sidebar(array(
+        'name' => 'Header Aside',
+        'id' => 'header-aside',
+        'before_widget' => '<li id="%1$s" class="widgetcontainer %2$s">',
+        'after_widget' => "",
+        'before_title' => "<h3 class=\"widgettitle\">",
+        'after_title' => "</h3>\n",
+    ));
+
+}
+add_action( 'init', 'my_widgets_init' );
+
+// adding the widget area to your child theme
+function my_header_widgets() {
+if ( function_exists('dynamic_sidebar') && is_sidebar_active('header-aside') ) {
+    echo '<div id="header-aside" class="aside">'. "\n" . '<ul class="xoxo">' . "\n";
+    dynamic_sidebar('header-aside');
+    echo '' . "\n" . '</div><!-- #header-aside .aside -->'. "\n";
+    echo "\n" . '</div><!-- #header-box -->'. "\n";
+}
+}
+add_action('thematic_header', 'my_header_widgets', 8);
+
+function remove_branding() {
+    remove_action('thematic_header','thematic_brandingopen',1);
+}
+add_action('init', 'remove_branding');
+
+function my_brandingopen() { ?>
+    <div id="header_box">
+        <div id="branding">
+<?php }
+add_action('thematic_header','my_brandingopen',1);
+
 ?>

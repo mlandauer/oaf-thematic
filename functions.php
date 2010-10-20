@@ -40,7 +40,7 @@ function my_widgets_init() {
         'name' => 'Header Aside',
         'id' => 'header-aside',
         'before_widget' => '<li id="%1$s" class="widgetcontainer %2$s">',
-        'after_widget' => "",
+        'after_widget' => "</li>",
         'before_title' => "<h3 class=\"widgettitle\">",
         'after_title' => "</h3>\n",
     ));
@@ -53,7 +53,7 @@ function my_header_widgets() {
 if ( function_exists('dynamic_sidebar') && is_sidebar_active('header-aside') ) {
     echo '<div id="header-aside" class="aside">'. "\n" . '<ul class="xoxo">' . "\n";
     dynamic_sidebar('header-aside');
-    echo '' . "\n" . '</div><!-- #header-aside .aside -->'. "\n";
+    echo '' . "\n" . '</ul></div><!-- #header-aside .aside -->'. "\n";
     echo "\n" . '</div><!-- #header-box -->'. "\n";
 }
 }

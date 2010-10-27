@@ -83,7 +83,7 @@ from jumping into the air */
 }
 
 /* Move donate and get involved menu to the right */
-#menu-item-644, #menu-item-646 {
+#menu-item-644 {
   border-right:1px solid #ccc;
 }
 #menu-item-645 {

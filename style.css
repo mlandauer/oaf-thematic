@@ -93,3 +93,14 @@ from jumping into the air */
   width: 75px;
   text-align: center;
 }
+
+/* Lay out boxes on home page - very crude */
+#project-updates, #community-chatter, #get-involved, #make-a-donation {
+	width: 48%;
+	float: left;
+}
+#project-updates, #get-involved {
+	margin-right: 2%;
+}
+
+

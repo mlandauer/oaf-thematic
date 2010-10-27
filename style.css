@@ -81,3 +81,15 @@ from jumping into the air */
 .page-template-template-page-fullwidth-php .hentry {
 	width:940px;
 }
+
+/* Move donate and get involved menu to the right */
+#menu-item-644, #menu-item-646 {
+  border-right:1px solid #ccc;
+}
+#menu-item-645 {
+  margin-left: 268px;
+}
+#menu-item-645 a, #menu-item-646 a {
+  width: 76px;
+  text-align: center;
+}

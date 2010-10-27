@@ -77,3 +77,7 @@ from jumping into the air */
 	display: none;
 }
 
+/* Fix up full width layout so it REALLY is fullwidth */
+.page-template-template-page-fullwidth-php .hentry {
+	width:940px;
+}

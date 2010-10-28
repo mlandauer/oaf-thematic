@@ -104,3 +104,38 @@ from jumping into the air */
 }
 
 
+/* Super simple styling for Twitter Tracker tweets */
+.tweets div.avatar {
+	display: none;
+}
+
+.tweets li {
+	list-style-type: none;
+}
+
+ol.tweets {
+	margin-left: 0;
+}
+
+/* Style the rss feed from Google groups a wee bit */
+#community-chatter ul {
+	margin-left: 0;
+}
+
+#community-chatter li {
+	list-style-type: none;
+}
+
+/* Style the recent blog posts on home page */
+#project-updates li {
+	list-style-type: none;
+}
+
+#project-updates ul {
+	margin-left: 0;
+}
+
+#project-updates > p {
+	display: none;
+}
+

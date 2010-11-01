@@ -139,3 +139,9 @@ ol.tweets {
 	display: none;
 }
 
+/* Don't display the title on the home page */
+body.home h1.entry-title {
+	display: none;
+}
+
+

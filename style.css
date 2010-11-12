@@ -237,6 +237,8 @@ a:link {
 	margin-left: 1px;
 }
 #menu-volunteer-donate li {
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
 	list-style-type: none;
 	background-color: #ccc654;
 	width: 110px;

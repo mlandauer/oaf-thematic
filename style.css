@@ -228,3 +228,13 @@ a:link {
 	padding-left: 37px;
 	padding-right: 37px;
 }
+
+#menu-volunteer-donate li {
+	list-style-type: none;
+	display: inline;
+	background-color: #ccc654;
+}
+
+#menu-volunteer-donate a {
+	color: #000000;
+}

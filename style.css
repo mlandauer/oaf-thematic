@@ -179,3 +179,52 @@ a:link {
 #main {
 	background-color: #ffffff; /* White */
 }
+
+#access a {
+	color: black;
+}
+
+#footer {
+	margin-top: 0;
+}
+
+#main {
+	width: 960px;
+}
+
+#subsidiary {
+	width: 974px;
+}
+
+#siteinfo {
+	margin-bottom: 44px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#branding {
+	padding-top: 7px;
+}
+#header-aside {
+	padding-top: 7px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#subsidiary .aside#first {
+	margin-left: 67px;
+}
+#subsidiary .aside#second, #subsidiary .aside#third {
+	margin-left: 60px;
+}
+
+#subsidiary .aside {
+	width: 240px;
+	margin-right: 0;
+}
+
+#siteinfo {
+	width: 900px;
+	padding-left: 37px;
+	padding-right: 37px;
+}

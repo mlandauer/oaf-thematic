@@ -1,3 +1,5 @@
+/* @override http://test.openaustraliafoundation.org.au/wp-content/themes/oaf-thematic/style.css */
+
 /*   
 Theme Name: OpenAustralia Foundation
 Theme URI: 
@@ -149,4 +151,31 @@ body.home h1.entry-title {
 	display: none;
 }
 
+body {
+	background-color: #f6f5f3; /* Light gray */
+}
 
+#header_box {
+	background-color: #ccc654; /* Yellowish */
+}
+
+#header-aside, #subsidiary, #siteinfo {
+	background-color: #48443d; /* Brownish */
+	color: #ffffff; /* White */
+}
+
+#header-aside h3, #subsidiary h3, #siteinfo h3 {
+	color: #ffffff; /* White */
+}
+
+a:link {
+	color: #ccc654;
+}
+
+#header-aside a, #subsidiary a, #siteinfo a {
+	color: #ccc654; /* Yellowish */
+}
+
+#main {
+	background-color: #ffffff; /* White */
+}

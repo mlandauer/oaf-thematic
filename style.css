@@ -95,12 +95,17 @@ from jumping into the air */
 }
 
 /* Lay out boxes on home page - very crude */
-#project-updates, #community-chatter, #get-involved, #make-a-donation {
+#community-chatter, #make-a-donation, #project-updates, #get-involved {
 	width: 48%;
-	float: left;
 }
+
+#community-chatter, #make-a-donation {
+	float: right;
+}
+
 #project-updates, #get-involved {
-	margin-right: 2%;
+	float: left;
+	clear: left;
 }
 
 

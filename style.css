@@ -209,6 +209,9 @@ a:link {
 	padding-top: 7px;
 	padding-bottom: 0;
 	margin-bottom: 0;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 240px;
 }
 
 #subsidiary .aside#first {
@@ -229,12 +232,22 @@ a:link {
 	padding-right: 37px;
 }
 
+/* Volunteer and donate at the top */
+#menu-volunteer-donate {
+	margin-left: 1px;
+}
 #menu-volunteer-donate li {
 	list-style-type: none;
-	display: inline;
 	background-color: #ccc654;
+	width: 110px;
+	float: left;
+	text-align: center;
+	padding-top: 6px;
+	height: 21px;
+	margin-left: 6px;
 }
 
 #menu-volunteer-donate a {
 	color: #000000;
+	text-decoration: none;
 }

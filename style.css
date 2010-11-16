@@ -21,7 +21,7 @@ Thematic is © Ian Stewart http://themeshaper.com/
 @import url('../thematic/library/styles/typography.css');
 
 /* Apply a basic layout */
-@import url('../thematic/library/layouts/2c-l-fixed.css');
+@import url('../thematic/library/layouts/2c-r-fixed.css');
 
 /* Apply basic image styles */
 @import url('../thematic/library/styles/images.css');
@@ -45,7 +45,7 @@ Thematic is © Ian Stewart http://themeshaper.com/
 #branding {
     float: left;
     width: 620px;
-    margin: 0 0 0 10px;
+	margin: 0 0 0 30px;
 }
 
 /* Moves the new widgetized area to the right and levels it with #branding */
@@ -58,6 +58,11 @@ Thematic is © Ian Stewart http://themeshaper.com/
 from jumping into the air */
 #access {
     clear: both;
+}
+
+.menu {
+	width: 930px;
+	margin-left: 30px;
 }
 
 /* Very, very basic styling for cforms form */
@@ -77,11 +82,6 @@ from jumping into the air */
 
 .cform fieldset.cf_hidden, .linklove {
 	display: none;
-}
-
-/* Fix up full width layout so it REALLY is fullwidth */
-.page-template-template-page-fullwidth-php .hentry {
-	width:940px;
 }
 
 /* Lay out boxes on home page - very crude */
@@ -180,8 +180,14 @@ a:link {
 	width: 960px;
 }
 
+#content {
+	margin-left: 30px;
+	margin-right: 30px;
+	width: 580px;
+}
+
 #subsidiary {
-	width: 974px;
+	width: 960px;
 }
 
 #siteinfo {
@@ -202,22 +208,16 @@ a:link {
 	width: 240px;
 }
 
-#subsidiary .aside#first {
-	margin-left: 67px;
-}
-#subsidiary .aside#second, #subsidiary .aside#third {
-	margin-left: 60px;
-}
-
-#subsidiary .aside {
-	width: 240px;
-	margin-right: 0;
+#subsidiary .aside#first, #subsidiary .aside#second, #subsidiary .aside#third {
+	width: 260px;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 
 #siteinfo {
 	width: 900px;
-	padding-left: 37px;
-	padding-right: 37px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 /* Volunteer and donate at the top */

@@ -1,3 +1,5 @@
+/* @override http://test.openaustraliafoundation.org.au/wp-content/themes/oaf-thematic/style.css */
+
 /*   
 Theme Name: OpenAustralia Foundation
 Theme URI: 
@@ -80,18 +82,6 @@ from jumping into the air */
 /* Fix up full width layout so it REALLY is fullwidth */
 .page-template-template-page-fullwidth-php .hentry {
 	width:940px;
-}
-
-/* Move donate and get involved menu to the right */
-#menu-item-644 {
-  border-right:1px solid #ccc;
-}
-#menu-item-645 {
-  margin-left: 140px;
-}
-.sf-menu a {
-  width: 75px;
-  text-align: center;
 }
 
 /* Lay out boxes on home page - very crude */

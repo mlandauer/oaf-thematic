@@ -33,7 +33,7 @@ Thematic is © Ian Stewart http://themeshaper.com/
 /* Prepare theme for plugins */
 @import url('../thematic/library/styles/plugins.css');
 
-#header_box {
+#header_box, #access {
     clear: both;
     margin: 0 auto;
     overflow: hidden;
@@ -136,7 +136,7 @@ body.home h1.entry-title {
 	display: none;
 }
 
-body {
+#access {
 	background-color: #f6f5f3; /* Light gray */
 }
 

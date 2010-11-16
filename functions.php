@@ -70,4 +70,7 @@ function my_brandingopen() { ?>
 <?php }
 add_action('thematic_header','my_brandingopen',1);
 
+// Turn on shortcodes in sidebar widgets
+add_filter('widget_text', 'do_shortcode');
+
 ?>

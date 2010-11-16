@@ -84,18 +84,6 @@ from jumping into the air */
 	width:940px;
 }
 
-/* Move donate and get involved menu to the right */
-#menu-item-644 {
-  border-right:1px solid #ccc;
-}
-#menu-item-645 {
-  margin-left: 140px;
-}
-.sf-menu a {
-  width: 75px;
-  text-align: center;
-}
-
 /* Lay out boxes on home page - very crude */
 #community-chatter, #make-a-donation, #project-updates, #get-involved {
 	width: 48%;

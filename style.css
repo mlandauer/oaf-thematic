@@ -102,6 +102,10 @@ from jumping into the air */
 	border-top-left-radius: 7px;
 	border-top-right-radius: 7px;
 }
+#make-a-donation h3 a, #get-involved h3 a {
+	color: #48443d;
+	text-decoration: none;
+}
 
 #community-chatter, #make-a-donation {
 	float: right;

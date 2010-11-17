@@ -82,8 +82,25 @@ from jumping into the air */
 }
 
 /* Lay out boxes on home page - very crude */
-#community-chatter, #make-a-donation, #project-updates, #get-involved {
-	width: 48%;
+#make-a-donation, #get-involved {
+	width: 290px;
+	background-color: #48443d;
+	color: #ffffff;
+	border-radius: 7px;
+	text-align: center;
+}
+
+#make-a-donation p, #get-involved p {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+#make-a-donation h3, #get-involved h3 {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-bottom: 1em;
+	background-color: #ccc654;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
 }
 
 #community-chatter, #make-a-donation {

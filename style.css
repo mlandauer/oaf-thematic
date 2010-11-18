@@ -274,3 +274,26 @@ a:link {
 	color: #000000;
 	text-decoration: none;
 }
+
+/* Search widget */
+
+.widget_search h3 {
+	display: none;
+}
+.widget_search #s {
+	width: 170px;
+	height: 24px;
+	border: 1px solid #cacac2;
+	margin-bottom: 0px;
+	padding-left: 0.5em;
+}
+.aside #searchsubmit {
+	display: inline;
+	width: 32px;
+	height: 28px;
+	text-indent: -1000em;
+	background: transparent url(images/search.png) no-repeat center center;
+	border: 1px solid #cacac2;
+	margin: 0;
+	padding: 0;
+}

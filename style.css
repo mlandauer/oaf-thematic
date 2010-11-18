@@ -332,3 +332,12 @@ a:link {
 	background-color: #f6f5f3;
 	padding-top: 18px;
 }
+
+/* Remove bullets in footer */
+.sub-aside li {
+	list-style-type: none;
+}
+
+.sub-aside ul.blogroll {
+	margin-left: 0;
+}

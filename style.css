@@ -333,6 +333,13 @@ a:link {
 	padding-top: 18px;
 }
 
+/* Images in footer */
+.sub-aside img {
+	display: block;
+	float: left;
+	margin-right: 5px;
+}
+
 /* Remove bullets in footer */
 .sub-aside li {
 	list-style-type: none;

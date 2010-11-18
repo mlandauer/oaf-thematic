@@ -286,6 +286,7 @@ a:link {
 	border: 1px solid #cacac2;
 	margin-bottom: 0px;
 	padding-left: 0.5em;
+	color: #777;
 }
 .aside #searchsubmit {
 	display: inline;
@@ -296,4 +297,22 @@ a:link {
 	border: 1px solid #cacac2;
 	margin: 0;
 	padding: 0;
+}
+
+/* Sidebar */
+.aside#primary {
+	background-color: #ccc654;
+	border-style: none;
+	margin-bottom: 0;
+	color: #777;
+}
+
+.aside#primary a {
+	color: #777;
+}
+
+.aside#secondary {
+	
+	background-color: #f6f5f3;
+	padding-top: 18px;
 }

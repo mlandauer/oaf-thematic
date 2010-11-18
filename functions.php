@@ -73,4 +73,10 @@ add_action('thematic_header','my_brandingopen',1);
 // Turn on shortcodes in sidebar widgets
 add_filter('widget_text', 'do_shortcode');
 
+//Change search box text
+function childtheme_search_value() {
+    return "Search the site..";
+}
+add_filter('search_field_value', 'childtheme_search_value');
+
 ?>

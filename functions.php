@@ -94,6 +94,7 @@ if ( function_exists('dynamic_sidebar') && is_sidebar_active('banner-aside') ) {
     dynamic_sidebar('banner-aside');
     echo '' . "\n" . '</ul></div><!-- #banner-aside .aside -->'. "\n";
 }
+}
 add_filter('thematic_abovecontainer', 'my_banner');
 
 ?>

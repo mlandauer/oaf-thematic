@@ -44,6 +44,14 @@ function my_widgets_init() {
         'before_title' => "<h3 class=\"widgettitle\">",
         'after_title' => "</h3>\n",
     ));
+    register_sidebar(array(
+        'name' => 'Banner',
+        'id' => 'banner-aside',
+        'before_widget' => '<li id="%1$s" class="widgetcontainer %2$s">',
+        'after_widget' => "</li>",
+        'before_title' => "<h3 class=\"widgettitle\">",
+        'after_title' => "</h3>\n",
+    ));
 
 }
 add_action( 'init', 'my_widgets_init' );
@@ -80,9 +88,12 @@ function childtheme_search_value() {
 add_filter('search_field_value', 'childtheme_search_value');
 
 // Add widget below menu that spans full width
-//function my_banner() {
-//    echo '<p>Hello world!</p>';
-//}
-//add_filter('thematic_abovecontainer', 'my_banner');
+function my_banner() {
+if ( function_exists('dynamic_sidebar') && is_sidebar_active('banner-aside') ) {
+    echo '<div id="banner-aside" class="aside">'. "\n" . '<ul class="xoxo">' . "\n";
+    dynamic_sidebar('banner-aside');
+    echo '' . "\n" . '</ul></div><!-- #banner-aside .aside -->'. "\n";
+}
+add_filter('thematic_abovecontainer', 'my_banner');
 
 ?>

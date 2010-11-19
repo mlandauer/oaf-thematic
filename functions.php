@@ -79,4 +79,10 @@ function childtheme_search_value() {
 }
 add_filter('search_field_value', 'childtheme_search_value');
 
+// Add widget below menu that spans full width
+//function my_banner() {
+//    echo '<p>Hello world!</p>';
+//}
+//add_filter('thematic_abovecontainer', 'my_banner');
+
 ?>

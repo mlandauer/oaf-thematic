@@ -79,7 +79,7 @@ a:hover {
 }
 #blog-title a:active,
 #blog-title a:hover {
-    color: #FF4B33;
+    color:#ba3458;
 }
 #blog-description {
     color:#666;
@@ -845,7 +845,7 @@ li.content-column {
 }
 #siteinfo a:active,
 #siteinfo a:hover {
-    color: #FF4B33;
+    color: #ba3458;
 }
 
 

@@ -181,17 +181,17 @@ ul.sf-menu li li li.sfHover ul {
 	color:			#666;
 }
 .sf-menu li {
-	background:		#fff;
+	background:		#f6f5f3;
 }
 .sf-menu li li {
-	background:		#fff;
+	background:		#f6f5f3;
 }
 .sf-menu li li li {
 	background:		#9AAEDB;
 }
 .sf-menu li:hover, .sf-menu li.sfHover,
 .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
-    background:     #fafafa;
+    background:     #ffffff;
 	outline:		0;
     border-bottom-color:#ccc;
 }

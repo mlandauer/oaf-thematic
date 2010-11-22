@@ -176,6 +176,7 @@ ul.sf-menu li li li.sfHover ul {
 .sf-menu .current_page_ancestor a,
 .sf-menu .current_page_parent a {
     border-bottom-color:#fff;
+    background-color: #fff;
 }
 .sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
 	color:			#666;
@@ -831,7 +832,6 @@ li.content-column {
 -------------------------------------------------------------- */
 
 #footer {
-    border-top:1px solid #ccc;
     margin-top:22px;
 }
 #siteinfo {

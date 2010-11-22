@@ -88,7 +88,7 @@ from jumping into the air */
 }
 
 .cform.latest-news .sendbutton {
-	background-color: #48443d;
+	background-color: #3a4e72;
 	color: #fff;
 	border: 1px solid #777;
 	padding: 2px 8px 3px;
@@ -102,7 +102,7 @@ from jumping into the air */
 /* Lay out boxes on home page - very crude */
 #make-a-donation, #get-involved {
 	width: 290px;
-	background-color: #48443d;
+	background-color: #3a4e72;
 	color: #ffffff;
 	border-radius: 7px;
 	text-align: center;
@@ -116,12 +116,12 @@ from jumping into the air */
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	margin-bottom: 1em;
-	background-color: #ccc654;
+	background-color: #f4e859;
 	border-top-left-radius: 7px;
 	border-top-right-radius: 7px;
 }
 #make-a-donation h3 a, #get-involved h3 a {
-	color: #48443d;
+	color: #3a4e72;
 	text-decoration: none;
 }
 
@@ -180,11 +180,11 @@ body.home h1.entry-title {
 }
 
 #header_box {
-	background-color: #ccc654; /* Yellowish */
+	background-color: #f4e859; /* Yellowish */
 }
 
 #header-aside, #subsidiary, #siteinfo {
-	background-color: #48443d; /* Brownish */
+	background-color: #3a4e72; /* Brownish */
 	color: #ffffff; /* White */
 }
 
@@ -192,12 +192,8 @@ body.home h1.entry-title {
 	color: #ffffff; /* White */
 }
 
-a:link {
-	color: #ccc654;
-}
-
 #header-aside a, #subsidiary a, #siteinfo a {
-	color: #ccc654; /* Yellowish */
+	color: #f4e859; /* Yellowish */
 }
 
 #main {
@@ -282,7 +278,7 @@ a:link {
 	border-top-left-radius: 7px;
 	border-top-right-radius: 7px;
 	list-style-type: none;
-	background-color: #ccc654;
+	background-color: #f4e859;
 	width: 94px;
 	float: left;
 	text-align: center;
@@ -326,7 +322,7 @@ a:link {
 
 /* Sidebar */
 .aside#primary {
-	background-color: #ccc654;
+	background-color: #f4e859;
 	border-style: none;
 	margin-bottom: 0;
 	color: #777;

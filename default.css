@@ -7,7 +7,8 @@
 -------------------------------------------------------------- */
 
 body, input, textarea {
-    font:15px Georgia,serif;
+    font-size: 15px;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
     line-height:22px;
 }
 p, ul, ol, dd, pre {
@@ -67,7 +68,7 @@ a:hover {
     padding:88px 0 44px 0;
 }
 #blog-title {
-    font-family:Arial,sans-serif;
+    font-family:museo-slab-1,sans-serif;
     font-size:34px;
     font-weight:bold;
     line-height:40px;
@@ -256,7 +257,7 @@ ul.sf-menu li li li.sfHover ul {
     padding:22px 20px 0 20px;
 }
 .entry-title {
-    font-family:Arial,sans-serif;
+    font-family:museo-slab-1,sans-serif;
     font-size:26px;
     font-weight:bold;
     line-height:26px;
@@ -305,7 +306,7 @@ ul.sf-menu li li li.sfHover ul {
 }
 .entry-content h1,
 .entry-content h2 {
-    font-family:Arial,sans-serif;
+    font-family:museo-slab-1,sans-serif;
     font-size:19px;
     font-weight:bold;
     padding:28px 0 14px 0;
@@ -809,7 +810,7 @@ li.content-column {
     padding:0 20px;
 }
 #content .aside h3 {
-    font-family:Georgia,serif;
+    font-family:museo-slab-1,sans-serif;
     font-weight:normal;
     font-size:17px;
     font-style:italic;
@@ -896,4 +897,10 @@ li.content-column {
     color:#000000;
     margin:2px;
     padding:2px 4px;
+}
+
+/* Everything above this point is what's in the normal thematic default.css */
+
+#header-aside, .menu, #banner-aside {
+	font-family: museo-slab-1,sans-serif;
 }

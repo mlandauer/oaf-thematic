@@ -291,6 +291,10 @@ a:link {
 	margin-left: 4px;
 }
 
+#menu-volunteer-donate li:hover {
+	background-color: #aca634;	
+}
+
 #menu-volunteer-donate a {
 	color: #000000;
 	text-decoration: none;

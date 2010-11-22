@@ -368,3 +368,43 @@ a:link {
 #banner-aside img {
 	float: right;
 }
+
+/* Spacing below menu */
+
+#main {
+	padding-top: 3em;
+}
+
+.home #main {
+	padding-top: 0;
+}
+
+.home .entry-content h3:first-child {
+	padding-top: 0;
+}
+
+.home li {
+	list-style-type: none;
+}
+
+.home ul {
+	margin-left: 0;
+}
+
+.home ul.xoxo ul {
+	margin-left: 0;
+}
+
+#get-involved p a, #make-a-donation p a {
+	text-decoration: none;
+	background-color: #ffffff;
+	border-radius: 13px;
+	padding: 4px 30px;
+	color: #000;
+	border: solid 1px #ffffff;
+
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dddddd));
+	background: -moz-linear-gradient(top,  #ffffff,  #dddddd);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dddddd');
+
+}

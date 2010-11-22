@@ -69,9 +69,9 @@ a:hover {
 }
 #blog-title {
     font-family:museo-slab-1,sans-serif;
-    font-size:34px;
+    font-size:28px;
     font-weight:bold;
-    line-height:40px;
+    line-height:30px;
 }
 #blog-title a {
     color:#000;
@@ -84,7 +84,6 @@ a:hover {
 #blog-description {
     color:#666;
     font-size:13px;
-    font-style:italic;
 }
 
 
@@ -312,8 +311,8 @@ ul.sf-menu li li li.sfHover ul {
     padding:28px 0 14px 0;
 }
 .entry-content h3 {
+	font-family:museo-slab-1;
     font-size:17px;
-    font-style:italic;
     padding:28px 0 14px 0;
 }
 .entry-content h4 {
@@ -726,8 +725,8 @@ li.content-column {
 }
 .aside h3 {
     font-size:15px;
-    font-style:italic;
-    line-height:22px;
+    font-weight: bold;
+    line-height:20px;
 }
 .aside h3 a {
     text-decoration:none;
@@ -904,3 +903,22 @@ li.content-column {
 #header-aside, .menu, #banner-aside {
 	font-family: museo-slab-1,sans-serif;
 }
+
+#banner-aside {
+	letter-spacing: -1px;
+}
+
+#header-aside.aside h3 {
+	font-size: 12px;
+	text-align: center;
+}
+.sub-aside h3.widgettitle {
+	text-transform: uppercase;
+	font: normal normal 12px museo-slab-1,sans-serif;
+	margin-bottom: 1em;
+}
+
+#banner-aside a {
+	color: #ffffff;
+}
+

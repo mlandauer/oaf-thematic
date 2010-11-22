@@ -91,7 +91,11 @@ from jumping into the air */
 	background-color: #48443d;
 	color: #fff;
 	border: 1px solid #777;
-	padding: 2px 10px 3px;
+	padding: 2px 8px 3px;
+}
+
+.cform.latest-news .sendbutton:hover {
+	background-color: #68645d;
 }
 
 
